@@ -26,6 +26,7 @@
   text-transform: uppercase;
   text-decoration: none;
   list-style: none;
+  margin-bottom: 114px;
   color: var(--main-color);
 }
 
@@ -45,6 +46,7 @@
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
+  margin-bottom: 8.5px;
   font-style: normal;
 }
 
@@ -53,6 +55,7 @@
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  margin-bottom: 79px;
   color: var(--input-color);
 }
 
@@ -69,13 +72,16 @@
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
+  margin-bottom: 20px;
   font-style: normal;
+  color: var(--form-button-title);
 }
 
 .servises-list {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
+  margin-bottom: 119px;
   
   text-decoration: none;
   font-style: normal;
@@ -87,6 +93,7 @@
   font-weight: 700;
   font-size: 14px;
   color: var(--sub-colour);
+  margin-bottom: 6px;
   text-decoration: none;
   font-style: normal;
 }
@@ -95,7 +102,8 @@
   font-family: "droid-serif", serif;
   font-weight: 400;
   font-style: normal;
-  font-display: var(--input-color);
+  margin-bottom: 74px;
+  color: var(--input-color);
 }
 
 ::placeholder{
@@ -117,4 +125,15 @@
 
 footer{
   background-color: #222222;
+  padding-top: 92px;
 }
+.container{
+  width: 933px;
+  margin: 0 auto;
+  outline: red 1px solid;
+}
+
+.input-form{
+  margin-bottom:28px ;
+}
+
