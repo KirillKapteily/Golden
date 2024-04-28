@@ -7,24 +7,24 @@
     <title>✨ Golden</title>
     <link rel="stylesheet" href="https://use.typekit.net/eic2tcr.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.typekit.net/eic2tcr.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap" rel="stylesheet">
-<!-- logo-font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap" rel="stylesheet">
+    <!-- logo-font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header class="container">
+    <header class="container" class="header">
         <a href="index.html" class="Golden">Golden</a>
         <ul class="header-list">
             <li class="header-item"><a href="#" class="header-item">Hоme</a></li>
@@ -34,45 +34,63 @@
             <li class="header-item"><a href="#" class="header-item">Contacts</a></li>
         </ul>
     </header>
-    <main >
+    <main>
         <div class="container">
-        <h1 class="main-info">Servises</h1>
-        <p class="main-description">Proin iaculis purus consequat sem cure. </p>
-        <ul class="servises-list">
-            <li class="servises-item"><img src="imgs/bin.png" alt="bin" width="50" class="servises-img"></li>
-            <h3>E-Commerce</h3>
-            <p class="Servises-description">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus
-                posuere odio in tincidunt.</p>
-            <li class="servises-item"><img src="imgs/laptop.png" alt="laptop" width="50" class="servises-img"></li>
-            <h3>Responsive Web</h3>
-            <p class="Servises-description">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus
-                posuere odio in tincidunt.</p>
-            <li class="servises-item"><img src="imgs/lock.png" alt="lock" width="50" class="servises-img"></li>
-            <h3 class="servises-title">Web Security</h3>
-            <p class="Servises-description">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus
-                posuere odio in tincidunt.</p>
-        </ul>
-    </div>
+            <h1 class="main-info">Servises</h1>
+            <p class="main-description">Proin iaculis purus consequat sem cure. </p>
+            <ul class="servises-list">
+                
+                <li class="servises-item"><div class="img-wrapper"><img src="imgs/bin.png" alt="bin" width="42" height="42" class="servises-img"></div>
+                    <h3 class="servises-title">E-Commerce</h3>
+                    <p class="Servises-description">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora
+                        entum suscipit aenean rhoncus
+                        posuere odio in tincidunt.</p>
+                </li>
+
+                <li class="servises-item"><div class="img-wrapper"><img src="imgs/laptop.png" alt="laptop" width="43" height="37" class="servises-img"></div>
+                    <h3 class="servises-title">Responsive Web</h3>
+                    <p class="Servises-description">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora
+                        entum suscipit aenean rhoncus
+                        posuere odio in tincidunt.</p>
+                </li>
+
+                <li class="servises-item"><div class="img-wrapper"><img src="imgs/lock.png" alt="lock" width="31" height="40" class="servises-img"></div>
+                    <h3 class="servises-title">Web Security</h3>
+                    <p class="Servises-description">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora
+                        entum suscipit aenean rhoncus
+                        posuere odio in tincidunt.</p>
+                </li>
+
+            </ul>
+        </div>
     </main>
     <footer>
         <div class="container">
-        <h1 class="main-info2">Contact us</h1>
-        <p class="Contact-us-info">Proin iaculis purus consequat sem cure. </p>
-        <form>
-            <lable for="user-name"></lable>
-            <input autofocus="text" id="user-name" name="Name" placeholder="your Name *" class="input-form">
-            <br>
-            <lable for="last-name"></lable>
-            <input type="text" id="last-name" name="last-name" placeholder="subject" class="input-form">
-            <br>
-            <label for="user-mail"></label>
-            <input type="Email" id="user-email" name="Email" placeholder="your e-mail *" class="input-form">
-            <br>
-            <label for="user-comment"></label>
-            <textarea type="Comment" id="user-comment" name="Comment" placeholder="Your message *" ></textarea>
-            <button type="submit" class="button">Send Message</button>
-        </form>
-    </div>
+
+            <h1 class="main-info2">Contact us</h1>
+            <p class="Contact-us-info">Proin iaculis purus consequat sem cure. </p>
+            <form>
+                <div class="flex-wrapper">
+                    <div>
+                        <lable for="user-name"></lable>
+                        <input autofocus="text" id="user-name" name="Name" placeholder="your Name *" class="input-form">
+                        <br>
+                        <lable for="last-name"></lable>
+                        <input type="text" id="last-name" name="last-name" placeholder="subject" class="input-form">
+                        <br>
+                        <label for="user-mail"></label>
+                        <input type="Email" id="user-email" name="Email" placeholder="your e-mail *" class="input-form">
+                        <br>
+                    </div>
+                    <div>
+                        <label for="user-comment"></label>
+                        <textarea type="Comment" id="user-comment" name="Comment" placeholder="Your message *"
+                            class="input-comment"></textarea>
+                    </div>
+                </div>
+                <button type="submit" class="button">Send Message</button>
+            </form>
+        </div>
     </footer>
 </body>
 
