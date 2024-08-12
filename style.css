@@ -15,6 +15,13 @@
   font-style: normal;
   text-decoration: none;
   color: var(--main-color);
+  
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  height:50px ;
 }
 
 .header-list {
@@ -29,9 +36,20 @@
   margin-bottom: 114px;
   color: var(--main-color);
   display: flex;
-  gap: 10px;
-
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
 }
+
+.header-list-contacts {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+  margin-left: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
 
 .header-page {
   display: flex;
@@ -144,6 +162,7 @@ background: rgb(255, 255, 255);
   text-align: center;
   display: flex;
   justify-content: center;
+  
 }
 
 .servises-item {
