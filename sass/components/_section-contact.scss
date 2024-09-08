@@ -1,0 +1,51 @@
+.input-form {
+    margin-bottom: 28px;
+    padding-bottom: 21px;
+    padding-top: 12px;
+    width: 455px;
+    margin-right: 27px;
+    padding-left: 20px;
+    padding-top: 15px;
+  }
+  
+  .input-comment {
+    width: 408px;
+    height: 205px;
+    padding-left: 20px;
+    padding-top: 15px;
+  }
+  ::placeholder {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+    padding-left: 20px;
+    padding-top: 15px;
+  }
+  
+  .button {
+    background-color: $main-color;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 22px 33px;
+    text-decoration: none;
+    font-style: normal;
+    margin: 0 auto;
+    display: block;
+    border-radius: 3px;
+    border: none;
+    color: #FFFFFF;
+    text-transform: uppercase;
+  }
+
+  .Contact-us-info {
+    font-family: "droid-serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 74px;
+    color: $input-color;
+    display: flex;
+    justify-content: center;
+  }

@@ -1,0 +1,239 @@
+.container {
+  width: 933px;
+  margin: 0 auto;
+  outline: red 1px solid;
+}
+
+.Servises-description {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  color: #777777;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  text-align: center;
+  width: 274px;
+  margin: 0 auto;
+}
+
+.servises-list {
+  gap: 56px;
+  padding-left: 0px;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  margin-bottom: 119px;
+  display: flex;
+  text-decoration: none;
+  font-style: normal;
+}
+
+.servises-img {
+  display: flex;
+  margin: 0 auto;
+}
+
+.servises-title {
+  color: rgb(34, 34, 34);
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 75px;
+  letter-spacing: -0.45px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.servises-item {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 14px;
+  color: #777777;
+  margin-bottom: 6px;
+  margin-top: 79px;
+  text-decoration: none;
+  font-style: normal;
+  width: 274px;
+  outline: 1px solid red;
+}
+
+.img-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  margin: 0 auto;
+  border: 3px solid rgb(254, 209, 54);
+  background: rgb(255, 255, 255);
+}
+
+.flex-wrapper {
+  display: flex;
+}
+
+.Golden {
+  font-family: "Bilbo Swash Caps", cursive;
+  font-weight: 400;
+  font-size: 36px;
+  font-style: normal;
+  text-decoration: none;
+  color: #FED136;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+}
+
+.header-list {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 14px;
+  font-style: normal;
+  text-transform: uppercase;
+  text-decoration: none;
+  list-style: none;
+  margin-bottom: 114px;
+  color: #FED136;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-list-contacts {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+  margin-left: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-page {
+  display: flex;
+}
+
+.header-item {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 14px;
+  font-style: normal;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #FED136;
+}
+
+footer {
+  background-color: #222222;
+  padding-top: 92px;
+}
+
+.input-form {
+  margin-bottom: 28px;
+  padding-bottom: 21px;
+  padding-top: 12px;
+  width: 455px;
+  margin-right: 27px;
+  padding-left: 20px;
+  padding-top: 15px;
+}
+
+.input-comment {
+  width: 408px;
+  height: 205px;
+  padding-left: 20px;
+  padding-top: 15px;
+}
+
+::-moz-placeholder {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+  padding-left: 20px;
+  padding-top: 15px;
+}
+
+::placeholder {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+  padding-left: 20px;
+  padding-top: 15px;
+}
+
+.button {
+  background-color: #FED136;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 22px 33px;
+  text-decoration: none;
+  font-style: normal;
+  margin: 0 auto;
+  display: block;
+  border-radius: 3px;
+  border: none;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.Contact-us-info {
+  font-family: "droid-serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 74px;
+  color: #BBBBBB;
+  display: flex;
+  justify-content: center;
+}
+
+.main-info {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  margin-bottom: 8.5px;
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+}
+
+.main-description {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 79px;
+  color: #BBBBBB;
+  display: flex;
+  justify-content: center;
+}
+
+.main-name {
+  width: 274px;
+  display: flex;
+}
+
+.main-info2 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  margin-bottom: 20px;
+  font-style: normal;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,77 @@
+.Servises-description {
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    color: $sub-colour;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    text-align: center;
+    width: 274px;
+    margin: 0 auto;
+  }
+
+  .servises-list {
+    gap: 56px;
+    padding-left: 0px;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    margin-bottom: 119px;
+    display: flex;
+  
+    text-decoration: none;
+    font-style: normal;
+  }
+
+  .servises-img {
+  
+    display: flex;
+    margin: 0 auto;
+  }
+  
+  .servises-title {
+    color: rgb(34, 34, 34);
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 75px;
+    letter-spacing: -0.45px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  .servises-item {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: 14px;
+    color: $sub-colour;
+    margin-bottom: 6px;
+    margin-top: 79px;
+    text-decoration: none;
+    font-style: normal;
+    width: 274px;
+    outline: 1px solid red;
+  
+  }
+
+  .img-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    border: 3px solid rgb(254, 209, 54);
+  background: rgb(255, 255, 255);
+  }
+
+
+.flex-wrapper {
+    display: flex;
+  }

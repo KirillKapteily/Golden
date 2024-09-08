@@ -1,0 +1,57 @@
+.Golden {
+    font-family: "Bilbo Swash Caps", cursive;
+    font-weight: 400;
+    font-size: 36px;
+    font-style: normal;
+    text-decoration: none;
+    color: $main-color;
+    
+  }
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    height:50px ;
+  }
+  
+  .header-list {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 14px;
+    font-style: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+    list-style: none;
+    margin-bottom: 114px;
+    color: $main-color;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .header-list-contacts {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    margin-left: auto;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  
+  .header-page {
+    display: flex;
+  }
+  
+  .header-item {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 14px;
+    font-style: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: $main-color;
+  }

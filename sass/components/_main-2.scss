@@ -1,0 +1,38 @@
+
+.main-info {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    margin-bottom: 8.5px;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .main-description {
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 79px;
+    color: $input-color;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .main-name {
+    width: 274px;
+    display: flex;
+  
+  }
+
+  .main-info2 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-style: normal;
+    color: $form-button-title;
+    display: flex;
+    justify-content: center;
+  }

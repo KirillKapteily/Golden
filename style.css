@@ -8,7 +8,7 @@
   --substrate-color: #222222;
 }
 
-.Golden {
+/* .Golden {
   font-family: "Bilbo Swash Caps", cursive;
   font-weight: 400;
   font-size: 36px;
@@ -16,9 +16,9 @@
   text-decoration: none;
   color: var(--main-color);
   
-}
+} */
 
-.header-nav {
+/* .header-nav {
   display: flex;
   justify-content: space-between;
   height:50px ;
@@ -64,9 +64,9 @@
   text-transform: uppercase;
   text-decoration: none;
   color: var(--main-color);
-}
+} */
 
-
+/* 
 .main-info {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
@@ -92,10 +92,10 @@
   width: 274px;
   display: flex;
 
-}
+} */
 
 
-.Servises-description {
+/* .Servises-description {
   font-family: "Roboto Slab", serif;
   font-optical-sizing: auto;
   color: var(--sub-colour);
@@ -105,9 +105,9 @@
   text-align: center;
   width: 274px;
   margin: 0 auto;
-}
+} */
 
-.main-info2 {
+/* .main-info2 {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
@@ -116,9 +116,9 @@
   color: var(--form-button-title);
   display: flex;
   justify-content: center;
-}
+} */
 
-.servises-list {
+/* .servises-list {
   gap: 56px;
   padding-left: 0px;
   list-style: none;
@@ -131,9 +131,9 @@
 
   text-decoration: none;
   font-style: normal;
-}
+} */
 
-.img-wrapper{
+/* .img-wrapper{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -141,12 +141,11 @@
   width: 70px;
   height: 70px;
   margin: 0 auto;
-  /* background-color: green; */
   border: 3px solid rgb(254, 209, 54);
 background: rgb(255, 255, 255);
-}
+} */
 
-.servises-img {
+/* .servises-img {
   
   display: flex;
   margin: 0 auto;
@@ -178,9 +177,9 @@ background: rgb(255, 255, 255);
   width: 274px;
   outline: 1px solid red;
 
-}
+} */
 
-.Contact-us-info {
+/* .Contact-us-info {
   font-family: "droid-serif", serif;
   font-weight: 400;
   font-style: normal;
@@ -188,9 +187,9 @@ background: rgb(255, 255, 255);
   color: var(--input-color);
   display: flex;
   justify-content: center;
-}
+} */
 
-::placeholder {
+/* ::placeholder {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
@@ -214,20 +213,20 @@ background: rgb(255, 255, 255);
   border: none;
   color: #FFFFFF;
   text-transform: uppercase;
-}
+} */
 
-footer {
+/* footer {
   background-color: #222222;
   padding-top: 92px;
-}
+} */
 
-.container {
+/* .container {
   width: 933px;
   margin: 0 auto;
   outline: red 1px solid;
-}
+} */
 
-.input-form {
+/* .input-form {
   margin-bottom: 28px;
   padding-bottom: 21px;
   padding-top: 12px;
@@ -242,9 +241,9 @@ footer {
   height: 205px;
   padding-left: 20px;
   padding-top: 15px;
-}
+} */
 
-
+/* 
 .flex-wrapper {
   display: flex;
-}
+} */
